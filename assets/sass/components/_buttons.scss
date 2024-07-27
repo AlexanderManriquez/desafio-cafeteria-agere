@@ -1,0 +1,18 @@
+.navbar__button {
+    font-family: "PT Mono", monospace;
+    font-weight: 400;
+    &--primary {
+        background-color: $white;
+        color: $spanish-gray;
+        font-size: $medium;
+        border: 1px solid $spanish-gray;
+        padding: 5px;
+    }
+    &--secondary {
+        background-color: $shiny-shamrock;
+        color: $white;
+        font-size: $medium;
+        border: 1px solid $white;
+        padding: 5px;
+    }
+}
