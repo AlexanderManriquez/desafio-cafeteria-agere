@@ -1,0 +1,59 @@
+.hero-section {
+    width: 100vw;
+    height: 445px;
+    &__img {
+        width: 70%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+    &__brand {
+        width: 17%;
+        position: relative;
+        left: 1150px;
+        top: 100px;
+    }
+    &__title {
+        font-size: $xxx-large;
+        font-weight: 400;
+        padding: 0.5rem;
+    }
+    &__subtitle {
+        font-size: $large;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+    }
+    &__featured {
+        position: relative;
+        top: 369px;
+        left:500px;
+        z-index: 2;
+        background-color: white;
+        width: 37%;
+        height: 135px;
+        display: flex;
+        justify-content: center;
+    }
+    &__characteristic{
+        width: 33%;
+        margin: 20px;
+    }
+    &__characteristic--title{
+        font-size: $xx-large;
+        font-weight: 400;
+    }
+    &__characteristic--subtitle{
+        font-size: $large;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+    }
+    &__box {
+        width: 135px;
+        height: 135px;
+        position: relative;
+        left: 1062px;
+        top: 234px;
+        z-index: 2;
+        background-color: $buff;
+    }
+}
