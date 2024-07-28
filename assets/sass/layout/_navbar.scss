@@ -1,0 +1,28 @@
+.navbar {
+    width: 90%;
+    height: 5rem;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    &__links {
+        font-family: "PT Mono", monospace;
+        font-weight: 400;
+        width: 20%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &__logo {
+        width: 2rem;
+        height: 2rem;
+    }
+    &__anchor {
+        color: $spanish-gray;
+        text-decoration: none;
+    }
+}
+
+.navbar__anchor:hover {
+    color: $black;
+}

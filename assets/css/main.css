@@ -57,6 +57,40 @@ table {
   border-spacing: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.navbar {
+  width: 90%;
+  height: 5rem;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar__links {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar__logo {
+  width: 2rem;
+  height: 2rem;
+}
+.navbar__anchor {
+  color: #989797;
+  text-decoration: none;
+}
+
+.navbar__anchor:hover {
+  color: #000;
+}
+
 .navbar__button {
   font-family: "PT Mono", monospace;
   font-weight: 400;
@@ -66,12 +100,22 @@ table {
   color: #989797;
   font-size: 16px;
   border: 1px solid #989797;
-  padding: 5px;
+  padding: 0.5rem;
 }
 .navbar__button--secondary {
   background-color: #4CA866;
   color: #FFF;
   font-size: 16px;
   border: 1px solid #FFF;
-  padding: 5px;
+  padding: 0.5rem;
+}
+
+.navbar__button--primary:hover {
+  color: #000;
+  border: 1px solid #000;
+}
+
+.navbar__button--secondary:hover {
+  color: #000;
+  background-color: #BDDFC7;
 }/*# sourceMappingURL=main.css.map */
