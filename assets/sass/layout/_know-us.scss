@@ -1,0 +1,47 @@
+.know-us{
+    width: 100vw;
+    height: 18rem;
+    &__text {
+        width: 25%;
+        position: absolute;
+        margin: 1rem 0 0 2rem;
+    }
+    &__title {
+        font-size: $x-large;
+        padding: 1rem;
+    }
+    &__paragraph {
+        font-size: $medium;
+        padding: 1rem;
+    }
+    &__rectangle {
+        width: 37.5rem;
+        height: 13.125rem;
+        background-color: $blue-de-france;
+        position: relative;
+        left:  31.25rem;
+    }
+    &__map {
+        width: 31.25rem;
+        height: 13.125rem;
+        z-index: 2;
+        position: relative;
+        left: 28.75rem;
+        bottom: 15rem;
+    }
+    &__grains {
+        width: 5.625rem;
+        height: 8.125rem;
+        z-index: 3;
+        position: relative;
+        left: 31.25rem;
+        bottom: 20.625rem;
+    }
+    &__coffe-machine {
+        width: 30.375rem;
+        height: 15.625rem;
+        position: relative;
+        left: 27.5rem;
+        bottom: 13.063rem;
+    }
+}
