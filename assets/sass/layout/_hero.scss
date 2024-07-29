@@ -1,0 +1,73 @@
+.hero-section {
+    width: 100vw;
+    height: 25rem;
+    &__img {
+        width: 70%;
+        height: 25rem;
+        position: absolute;
+        z-index: 1;
+    }
+    &__brand {
+        width: 17%;
+        position: relative;
+        left: 71.875rem;
+        top: 3rem;
+    }
+    &__title {
+        font-size: $xxx-large;
+        font-weight: 400;
+        padding: 0.5rem;
+    }
+    &__subtitle {
+        font-size: $large;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+    }
+    &__featured {
+        position: relative;
+        top: 5.7rem;
+        left: 31.25rem;
+        z-index: 2;
+        background-color: white;
+        width: 37%;
+        height: 8.438rem;
+        display: flex;
+        justify-content: center;
+    }
+    &__characteristic{
+        width: 33%;
+        margin: 1.25rem;
+    }
+    &__characteristic--title{
+        font-size: $xx-large;
+        font-weight: 400;
+    }
+    &__characteristic--subtitle{
+        font-size: $large;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+    }
+    &__box {
+        width: 8.438rem;
+        height: 8.438rem;
+        background-color: $buff;
+        position: relative;
+        left: 66.375rem;
+        bottom: 2.7rem;
+        z-index: 2;        
+    }
+    &__arrow{
+        width: 8.438rem;
+        height: 8.438rem;
+        background-color: $flame;
+        position: relative;
+        left: 65rem;
+        bottom: 11.8rem;
+        z-index: 3;
+        color: $white;
+        font-size: $xxx-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

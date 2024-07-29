@@ -17,14 +17,18 @@
     <link
         href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/6262dc69d7.js" crossorigin="anonymous"></script>
+    <!-- Importing styles -->
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 
 <body>
     <nav class="navbar">
         <div class="navbar__links">
-            <img src="./assets/img/logo.png" alt="Logo cafetería Agere">
-            <a href="#acercade">Acerca de</a>
-            <a href="tienda">Tienda</a>
+            <img src="./assets/img/logo.png" alt="Logo cafetería Agere" class="navbar__logo">
+            <a href="#acercade" class="navbar__anchor">Acerca de</a>
+            <a href="#tienda" class="navbar__anchor">Tienda</a>
         </div>
         <div class="navbar__button">
             <button class="navbar__button--primary">Iniciar Sesión</button>
@@ -34,8 +38,10 @@
 
     <header class="hero-section">
         <img src="./assets/img/img-1.png" alt="Vista de entrada de la cafetería" class="hero-section__img">
-        <h1 class="hero-section__title">Café Agere</h1>
-        <h3 class="hero-section__subtitle">Coffe Shop</h3>
+        <div class="hero-section__brand">
+            <h1 class="hero-section__title">Café Agere</h1>
+            <h3 class="hero-section__subtitle">Coffee Shop</h3>
+        </div>
         <article class="hero-section__featured">
             <div class="hero-section__characteristic">
                 <h2 class="hero-section__characteristic--title">+50</h2>
@@ -51,13 +57,16 @@
             </div>
         </article>
         <div class="hero-section__box"></div>
-        <div class="hero-section__arrow"></div>
+        <div class="hero-section__arrow">
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
     </header>
 
     <section class="know-us">
         <article class="know-us__text">
             <h2 class="know-us__title">Ven a conocernos</h2>
-            <p class="know-us__paragraph">Disfruta de una gran experiencia tomando un café o un tpe dentro de nuestra tienda o si prefieres ouedes comprar en línea nuestros cafés para disfrutarlos en casa</p>
+            <p class="know-us__paragraph">Disfruta de una gran experiencia tomando un café o un té dentro de nuestra
+                tienda o si prefieres puedes comprar en línea nuestros cafés para disfrutarlos en casa</p>
         </article>
         <div class="know-us__rectangle"></div>
         <img src="./assets/img/img-4.png" alt="Mapa de entorno de la tienda" class="know-us__map">
